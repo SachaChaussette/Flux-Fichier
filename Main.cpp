@@ -1,7 +1,5 @@
 #include "Macro.h"
-#include <iostream> // FLUX CONSOLE
-#include <fstream> // FLUX FICHIER
-#include "Mail.h"
+#include "StreamFunctions.h"
 
 
 
@@ -10,10 +8,10 @@ int main()
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
     locale::global(locale("fr_FR"));
 
-    /*Demo();
+    /*Demo();z
     return 0;*/
 
-    const string& _fullPath = ComputePath("", "coucou", "txt");
+    const string& _fullPath = ComputePath("", "coucou","txt");
 
     /*Mail _mail;
     _mail.AddContact(_fullPath, _mail.CreateContact());
@@ -27,9 +25,11 @@ int main()
     const int _charsCount = 5, _startCharIndex = 0;
     //DisplayByChar(_fullPath, _charsCount, _startCharIndex);
 
-    AddValue(_fullPath, "TEST", 2);
+    //AddValue(_fullPath, "TEST", 2);
 
-    cout << ComputeBufferAtIndex(_fullPath, 0);
+    //cout << ComputeBufferAtIndex(_fullPath, 0);
+
+    RemoveLine(_fullPath, 1);
 
     return EXIT_SUCCESS;
 }
@@ -88,123 +88,6 @@ void DisplayMenu(basic_ios<char, char_traits<char>>* _stream)
         DisplayCharacterByIndex(_readStream, _loop);
     }
 }
-
-
-
-string ComputePath(const string& _folderPath, const string& _filePath, const string& _fileExtension)
-{
-    return _folderPath + _filePath + "." + _fileExtension;
-}
-
-void DisplayByRow(const string& _filePath, const int _rowsCount, const int _startIndex)
-{
-    // Afficher un nombre n de ligne à partir d'un index
-    ifstream _stream = ifstream(_filePath);
-
-    if (!_stream)
-    {
-        cerr << "ERREUR => Le fichier : " << _filePath << " n'existe pas !\n";
-        return;
-    }
-   
-    string _line;
-    for (int _index = 0; _index <= _startIndex + _rowsCount; _index++)
-    {
-        getline(_stream, _line);
-
-        if (_index >= _startIndex)
-        {
-            cout << _line << endl;
-        }
-    }
-}
-
-void DisplayByChar(const string& _filePath, const int _charCount, const int _startIndex)
-{
-    // Afficher un nombre n de charactère à partir d'un index
-    ifstream _stream = ifstream(_filePath);
-    char _char;
-
-    if (!_stream)
-    {
-        cerr << "ERREUR => Le fichier : " << _filePath << " n'existe pas !\n";
-        return;
-    }
-
-    _stream.seekg(streampos(_startIndex));
-    for (int _index = 0; _index < _charCount; _index++)
-    {
-        _stream.get(_char);
-        cout << _char << endl;
-    }
-}
-
-int ComputeLengthOfFile(const string& _filePath)
-{
-    ifstream _stream = ifstream(_filePath);
-    _stream.seekg(0, _stream.end);
-    return _stream.tellg();
-}
-
-int SetCursorPositionByRow(const string& _filePath, const int _rowToMove)
-{
-    ifstream _stream = ifstream(_filePath);
-    const int _fileLength = ComputeLengthOfFile(_filePath);
-    char _char;
-    int _currentRow = 0;
-
-    _stream.tellg();
-
-    for (int _index = 0; _index < _fileLength; _index++)
-    {
-        _stream.get(_char);
-        if (_char == '\n' && ++_currentRow >= _rowToMove) return _index;
-    }
-}
-
-string ComputeBufferAtIndex(const string& _filePath, const int _startIndex)
-{
-    ifstream _stream = ifstream(_filePath);
-
-    // On définit la taille du fichier restant
-    _stream.seekg(_startIndex, _stream.end);
-    const int _length = _stream.tellg();
-    _stream.seekg(0, _stream.beg);
-
-    // On créer un tableau
-    char* _buffer = new char[_length];
-    _stream.read(_buffer, _length);
-    string _text = _buffer;
-
-    delete[] _buffer;
-
-
-
-    /*string _text;
-    char _char;
-
-    while (_stream.get(_char))
-    {
-        _text += _char;
-    }*/
-    
-    return _text;
-}
-
-void AddValue(const string& _filePath, const string& _value, const int _rowToAdd)
-{
-    ofstream _stream = ofstream(_filePath, ios_base::ate);
-
-    _stream << "Bonjour !" << endl;
-    _stream << "Je m'appelle" << endl;
-    _stream << "Thomas !" << endl;
- 
-    const int _startIndex = SetCursorPositionByRow(_filePath, _rowToAdd);
-    _stream.seekp(_startIndex);
-
-    _stream << _value;
-}
-
 
 void Demo()
 {

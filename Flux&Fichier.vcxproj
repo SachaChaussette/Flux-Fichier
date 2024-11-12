@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Mail.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="StreamFunctions.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contact.h" />

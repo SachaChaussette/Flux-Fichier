@@ -1,2 +1,9 @@
-Bonjour !
-Je m'appellTESThomas !
+1'Flux&Fichier.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+2'Flux&Fichier.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+3The thread 16248 has exited with code 0 (0x0).
+4'Flux&Fichier.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+5'Flux&Fichier.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+6'Flux&Fichier.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+7The thread 10456 has exited with code 0 (0x0).
+8The thread 27672 has exited with code 0 (0x0).
+9The program '[25652] Flux&Fichier.exe' has exited with code 0 (0x0).

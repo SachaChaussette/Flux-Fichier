@@ -1,10 +1,14 @@
 #pragma once
 
-#include <iostream>
+#include <iostream> // FLUX CONSOLE
+#include <fstream> // FLUX FICHIER
 #include <string>
+
 
 using namespace std;
 typedef unsigned int u_int;
+
+
 
 #define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
 
@@ -14,14 +18,11 @@ typedef unsigned int u_int;
 #define DISPLAY(_text, _endl)	cout << _text; \
 								if (_endl) cout << endl;
 
+#define COMPUTE_PATH(_folderPath,_filePath,_fileExtension) _folderPath + _filePath + "." + _fileExtension;
 
 void DisplayLinesByIndex(ifstream & _readStream, const int _numberOfLine);
 void DisplayCharacterByIndex(ifstream & _readStream, const char _numberOfChar);
 void DisplayMenu(basic_ios<char, char_traits<char>>*_stream);
 void Demo();
 
-string ComputeBufferAtIndex(const string & _filePath, const int _startIndex);
-void AddValue(const string & _filePath, const string & _value, const int _rowToAdd);
-string ComputePath(const string & _folderPath, const string & _filePath, const string & _fileExtension);
-void DisplayByRow(const string & _filePath, const int _rowsCount, const int _startIndex);
-void DisplayByChar(const string & _filePath, const int _charCount, const int _startIndex);
+

@@ -1,6 +1,5 @@
-﻿  Main.cpp
-D:\COURS 24-25\Flux&Fichier\Main.cpp(44,35): warning C4018: '<': signed/unsigned mismatch
-D:\COURS 24-25\Flux&Fichier\Main.cpp(58,35): warning C4018: '<': signed/unsigned mismatch
-D:\COURS 24-25\Flux&Fichier\Main.cpp(146,25): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
-D:\COURS 24-25\Flux&Fichier\Main.cpp(163,1): warning C4715: 'SetCursorPositionByRow': not all control paths return a value
-  Flux&Fichier.vcxproj -> D:\COURS 24-25\Flux&Fichier\x64\Debug\Flux&Fichier.exe
+﻿  StreamFunctions.h
+C:\Users\Sacha\Documents\GitHub\Flux-Fichier\StreamFunctions.h(87,25): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Sacha\Documents\GitHub\Flux-Fichier\StreamFunctions.h(101,38): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Sacha\Documents\GitHub\Flux-Fichier\StreamFunctions.h(101,23): warning C4244: 'initializing': conversion from 'std::streamoff' to 'const int', possible loss of data
+  Flux&Fichier.vcxproj -> C:\Users\Sacha\Documents\GitHub\Flux-Fichier\x64\Debug\Flux&Fichier.exe
