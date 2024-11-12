@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flux&Fichier", "Flux&Fichier.vcxproj", "{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Debug|x64.ActiveCfg = Debug|x64
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Debug|x64.Build.0 = Debug|x64
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Debug|x86.Build.0 = Debug|Win32
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Release|x64.ActiveCfg = Release|x64
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Release|x64.Build.0 = Release|x64
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Release|x86.ActiveCfg = Release|Win32
+		{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50EBB89-2E58-460B-AE30-99AC1E8251E6}
+	EndGlobalSection
+EndGlobal
