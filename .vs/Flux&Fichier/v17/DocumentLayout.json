@@ -51,7 +51,7 @@
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T08:10:14.181Z",
               "IsPinned": true,
@@ -68,8 +68,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T12:57:48.912Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -89,7 +88,7 @@
               "RelativeDocumentMoniker": "StreamFunctions.h",
               "ToolTip": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h",
               "RelativeToolTip": "StreamFunctions.h",
-              "ViewState": "AgIAAH8AAAAAAAAAAADwv68AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwLEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T17:04:55.241Z",
               "IsPinned": true,
@@ -119,8 +118,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T12:54:10.067Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "Macro.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T08:10:15.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T08:10:15.908Z"
             },
             {
               "$type": "Document",

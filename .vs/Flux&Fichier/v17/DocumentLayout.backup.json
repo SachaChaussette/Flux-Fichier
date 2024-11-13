@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|solutionrelative:StreamFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|solutionrelative:StreamFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{684ACFEC-18D9-49E4-A5C3-784D19ED34AE}|Flux\u0026Fichier.vcxproj|C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\Contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,13 +45,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T08:10:14.181Z",
               "IsPinned": true,
@@ -68,8 +68,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T12:57:48.912Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -83,13 +82,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StreamFunctions.h",
               "DocumentMoniker": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h",
               "RelativeDocumentMoniker": "StreamFunctions.h",
-              "ToolTip": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h*",
-              "RelativeToolTip": "StreamFunctions.h*",
-              "ViewState": "AgIAAH8AAAAAAAAAAADwv68AAAADAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sacha\\Documents\\GitHub\\Flux-Fichier\\StreamFunctions.h",
+              "RelativeToolTip": "StreamFunctions.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwLEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T17:04:55.241Z",
               "IsPinned": true,
@@ -119,8 +118,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-12T12:54:10.067Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "Macro.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T08:10:15.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T08:10:15.908Z"
             },
             {
               "$type": "Document",

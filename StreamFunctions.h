@@ -151,9 +151,9 @@ static void AddValue(const string& _filePath, const string& _value, const int _r
 {
     ofstream _stream = ofstream(_filePath, _openMode);
 
-    /*_stream << "Bonjour !" << endl;
+    _stream << "Bonjour !" << endl;
     _stream << "Je m'appelle" << endl;
-    _stream << "Thomas !" << endl;*/
+    _stream << "Thomas !" << endl;
 
     const int _startIndex = SetCursorPositionByRow(_filePath, _rowToAdd);
     _stream.seekp(_startIndex);
@@ -161,11 +161,21 @@ static void AddValue(const string& _filePath, const string& _value, const int _r
     _stream << _value;
 }
 /// <summary>
-/// Retire les données d'un fichier à la ligne _rowToAdd
+/// Retire toutes les données d'un fichier 
 /// </summary>
 /// <param name="_filePath"></param>
-/// <param name="_rowToRemove"></param>
-static void RemoveLine(const string& _filePath, const int _rowToRemove)
+static void ResetFile(const string& _filePath)
+{
+    ofstream _stream = ofstream(_filePath, ios_base::ate);
+
+    _stream << "";
+}
+/// <summary>
+/// Corromp un fichier ATTENTION CA PEUT FOUTRE LA MERDE
+/// </summary>
+/// <param name="_filePath"></param>
+/// <param name="_value"></param>
+static void CorruptFile(const string& _filePath, const string& _value)
 {
     ofstream _stream = ofstream(_filePath, ios_base::out);
 
@@ -173,6 +183,8 @@ static void RemoveLine(const string& _filePath, const int _rowToRemove)
     _stream << "Je m'appelle" << endl;
     _stream << "Thomas !" << endl;*/
 
-   
+    const int _startIndex = SetCursorPositionByRow(_filePath, 2);
+    _stream.seekp(_startIndex);
 
+    _stream << _value;
 }
