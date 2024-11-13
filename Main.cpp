@@ -29,7 +29,7 @@ int main()
 
     //cout << ComputeBufferAtIndex(_fullPath, 0);
 
-    CorruptFile(_fullPath, "ADIEU");
+    AddValue(_fullPath, "ADIEU", 2);
 
     return EXIT_SUCCESS;
 }

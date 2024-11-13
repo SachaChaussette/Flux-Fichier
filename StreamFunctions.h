@@ -177,14 +177,18 @@ static void ResetFile(const string& _filePath)
 /// <param name="_value"></param>
 static void CorruptFile(const string& _filePath, const string& _value)
 {
-    ofstream _stream = ofstream(_filePath, ios_base::out);
+    for (int _index = 0; _index < 2; _index++)
+    {
+        ofstream _stream = ofstream(_filePath, ios_base::out);
+        const int _startIndex2 = SetCursorPositionByRow(_filePath, 2);
+        _stream.seekp(_startIndex2);
 
+        _stream << _value;
+    }
+    
     /*_stream << "Bonjour !" << endl;
     _stream << "Je m'appelle" << endl;
     _stream << "Thomas !" << endl;*/
 
-    const int _startIndex = SetCursorPositionByRow(_filePath, 2);
-    _stream.seekp(_startIndex);
-
-    _stream << _value;
+    DISPLAY_ERROR("CORRUPTION ACCOMPLIE", true);
 }
